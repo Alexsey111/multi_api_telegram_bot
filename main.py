@@ -23,7 +23,7 @@ async def get_weather(city: str) -> str:
                     city_name = data['name']
                     country = data['sys']['country']
 
-                    return f"Сейчас в {city_name}, {country} температура: {temperature}°C, на улице: {weather_description}."
+                    return f"Сейчас в {city_name}, {country} температура: {temperature}°C, погодные условия: {weather_description}."
                 else:
                     return f"Ошибка при получении данных о погоде: {response.status} - {await response.text()}"
     except aiohttp.ClientError as ce:
