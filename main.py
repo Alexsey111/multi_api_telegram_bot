@@ -3,7 +3,7 @@ import aiohttp
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
-from config import TOKEN, OPENWEATHERMAP_API_KEY
+from config1 import TOKEN, OPENWEATHERMAP_API_KEY
 import random
 
 bot = Bot(token=TOKEN)

@@ -6,7 +6,7 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, FSInputFile
 from gtts import gTTS
 from googletrans import Translator
-from config import TOKEN
+from config1 import TOKEN
 
 # Создаем папку img, если ее не существует
 if not os.path.exists("img"):
