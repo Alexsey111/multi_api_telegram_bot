@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, CallbackQuery
-from confing1 import TOKEN
+from config import TOKEN
 import keyboard_script as kb
 
 bot = Bot(token=TOKEN)

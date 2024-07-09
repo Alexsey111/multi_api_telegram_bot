@@ -3,7 +3,7 @@ import aiohttp
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, FSInputFile, CallbackQuery
-from confing1 import TOKEN, OPENWEATHERMAP_API_KEY
+from config import TOKEN, OPENWEATHERMAP_API_KEY
 import keyboard_script as kb
 import random
 
